@@ -9,7 +9,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class ScreenShotUtility {
-    public static void  chalBetaSelfielelele(String  screenshotName) {
+        public static void  chalBetaSelfielelele(String  screenshotName) {
         try {
             TakesScreenshot screenshot = (TakesScreenshot) GLOBALSTATIC.driver;
             /**here we are doing typecast for driver into takesScreenshot*/

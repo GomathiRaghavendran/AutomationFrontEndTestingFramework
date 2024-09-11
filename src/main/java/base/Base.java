@@ -12,7 +12,7 @@ public class Base {
     public void launchBrowser() throws IOException {
         openSpecificBrowser("chrome");
         GLOBALSTATIC.driver.manage().window().maximize();
-        GLOBALSTATIC.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            GLOBALSTATIC.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 
     }

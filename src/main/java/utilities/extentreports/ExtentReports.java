@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 public class ExtentReports {
-    private com.relevantcodes.extentreports.ExtentReports extent;
+        private com.relevantcodes.extentreports.ExtentReports extent;
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
                                String outputDirectory) {

@@ -10,7 +10,7 @@ import java.io.FileOutputStream;
 import java.util.Calendar;
 
 public class ExcelTestDataUtility {
-    public String path;
+        public String path;
     public FileInputStream fis = null;
     public FileOutputStream fileOut = null;
     private XSSFWorkbook workbook = null;
